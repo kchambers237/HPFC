@@ -33,19 +33,21 @@
 ## Hourly Price Forward Curve  
 ### A market-consistent, two-stage modelling 
 ![HPFC](assests/hpfc/images/hpfc.png)
-[HPFC modelling](hpfc.pdf)
-[HPFC code](hpfc.ipynb)
-Objective:
+![HPFC modelling](hpfc.pdf)
+
+### Objective:
 Develop a market-consistent hourly forward curve for electricity prices, suitable for risk assessment and valuation.
+
 ### Approach:
-•	Two-stage linearized model separating intraday shape from weekly price level
-•	Stage 1: Predict peak/off-peak shapes on normalized prices
-•	Stage 2: Reintroduce weekly prices via weekly scaling 
-•	Integrate solar production effects with seasonal bucketing
+*	Two-stage linearized model separating intraday shape from weekly price level
+*	Stage 1: Predict peak/off-peak shapes on normalized prices
+*	Stage 2: Reintroduce weekly prices via weekly scaling 
+*	Integrate solar production effects with seasonal bucketing
+*	
 ### Key Features:
-•	Exact preservation of weekly base prices
-•	Stable and interpretable estimation
-•	Explicit structural constraints
-•	Fully auditable, modular Python implementation
+*	Exact preservation of weekly base prices
+*	Stable and interpretable estimation
+*	Explicit structural constraints
+*	Fully auditable, modular Python implementation
 Validation:
 •	HPFC vs observed price diagnostics
