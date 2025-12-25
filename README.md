@@ -32,8 +32,8 @@
 # Projects
 ## Hourly Price Forward Curve  
 ### A market-consistent, two-stage modelling 
-![HPFC](assests/hpfc/images/hpfc.png)
-![HPFC modelling](hpfc.pdf)
+![HPFC image](assests/hpfc/images/hpfc.png)
+![HPFC modelling documentation](hpfc.pdf)
 
 ### Objective:
 Develop a market-consistent hourly forward curve for electricity prices, suitable for risk assessment and valuation.
